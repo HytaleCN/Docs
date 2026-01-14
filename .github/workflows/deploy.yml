@@ -14,7 +14,7 @@ jobs:
         with:
           host: docs.hytalecn.com
           username: root
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          key: ${{ secrets.GITHUB }}
           script: |
             set -e
             /home/1panel/www/sites/docs.hytalecn.com/index/deploy.sh
