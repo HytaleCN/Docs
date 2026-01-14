@@ -28,3 +28,30 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Navbar social icons */
+
+.navbar-item-github:hover {
+  opacity: 0.6;
+  transition: ease 0.2s;
+}
+
+.navbar-item-github:before {
+  margin-right: 0.5rem;
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-image: url("/img/github-black.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+html[data-theme="dark"] .navbar-item-github:before {
+  background: url("/img/github-white.svg")
+    no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+}

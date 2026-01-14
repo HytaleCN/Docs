@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'HytaleCN 文档站 Test',
-  favicon: 'img/favicon.ico',
+  title: 'HytaleCN 文档站',
+  favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -19,15 +19,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.hytalecn.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'HytaleCN', // Usually your GitHub org/user name.
+  projectName: 'Docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -35,8 +35,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -49,7 +49,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/HytaleCN/Docs/',
         },
         blog: {
           showReadingTime: true,
@@ -60,7 +60,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/HytaleCN/Docs/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -77,75 +77,87 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/hytalecn-docs-social-card.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'HytaleCN 文档站',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'HytaleCN Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            label: '玩家支持',
+            to: 'player-support',
             position: 'left',
-            label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            label: '玩家资源',
+            to: 'player-assets',
+            position: 'left',
           },
+          {
+            label: '游戏功能',
+            to: 'game-features',
+            position: 'left',
+          },
+					{
+						href: 'https://github.com/HytaleCN/Docs',
+						position: 'right',
+						className: 'navbar-item-github',
+					},
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '玩家支持',
+                to: 'player-support',
+              },
+              {
+                label: '玩家资源',
+                to: 'player-resources',
+              },
+              {
+                label: '游戏功能',
+                to: 'game-features',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'HytaleCN',
+                href: 'https://hytalecn.com',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'QQ 群',
+                href: 'https://qm.qq.com/q/V11WIqBloC',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: '哔哩哔哩',
+                href: 'https://space.bilibili.com/14046393',
               },
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/HytaleCN/Docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© 2018-${new Date().getFullYear()} 深圳布克拉岛科技有限公司 保留所有权利。本站由 <a href="https://github.com/facebook/docusaurus" target="_blank" data-blank-handler="true">Docusaurus</a> 强力驱动。本站非 Hytale 官方所属，仅供用户学习交流使用，请仔细甄别信息。`,
       },
       prism: {
         theme: prismThemes.github,
