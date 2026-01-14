@@ -45,7 +45,7 @@ sidebar_position: 3
 
 **下载：**[hytale-downloader.zip（快速开始 + Linux 与 Windows）](https://downloader.hytale.com/hytale-downloader.zip)
 
-完整用法文档请参阅：[《服务器手册：Hytale Downloader CLI》](/game-features/multiplayer/hytale-server-manual.md#Hytale-Downloader-CLI)。
+完整用法文档请参阅：[《服务器手册：Hytale Downloader CLI》](/docs/game-features/multiplayer/hytale-server-manual.md#Hytale-Downloader-CLI)。
 
 ---
 
