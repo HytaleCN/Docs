@@ -155,7 +155,7 @@ Hytale 服务器需要认证，以启用与服务 API 的通信并防止滥用�
 
 > **注意：**每个 Hytale 游戏许可证最多允许 100 台服务器，以防止早期滥用。如果你需要更大的容量，请购买额外许可证或申请 Server Provider 账号。
 
-如果你需要为大量服务器进行认证，或希望自动、动态地为服务器完成认证，请阅读[《服务器提供商认证指南》](/docs/game-features/multiplayer/server-provider-authentication-guide.md)以获取详细信息。
+如果你需要为大量服务器进行认证，或希望自动、动态地为服务器完成认证，请阅读[《服务器提供商认证指南》](/game-features/multiplayer/server-provider-authentication-guide.md)以获取详细信息。
 
 ### 帮助
 
