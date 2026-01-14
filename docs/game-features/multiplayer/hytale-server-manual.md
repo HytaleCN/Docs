@@ -102,8 +102,7 @@ d-----        12/25/2025   9:25 PM                Server
 
 #### Hytale Downloader CLI
 
-> 适用场景：生产服务器。易于保持更新。
-> {.is-info}
+> **适用场景：**生产服务器。易于保持更新。
 
 这是一个命令行工具，可通过 OAuth2 认证下载 Hytale 服务器与资源文件。请参阅压缩包内的 `QUICKSTART.md`。
 
