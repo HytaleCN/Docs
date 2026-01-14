@@ -89,17 +89,17 @@ const config = {
         items: [
           {
             label: '玩家支持',
-            to: 'docs/player-support',
+            to: '/player-support',
             position: 'left',
           },
           {
             label: '玩家资源',
-            to: 'docs/player-assets',
+            to: '/player-assets',
             position: 'left',
           },
           {
             label: '游戏功能',
-            to: 'docs/game-features',
+            to: '/game-features',
             position: 'left',
           },
 					{
@@ -117,15 +117,15 @@ const config = {
             items: [
               {
                 label: '玩家支持',
-                to: 'docs/player-support',
+                to: '/player-support',
               },
               {
                 label: '玩家资源',
-                to: 'docs/player-resources',
+                to: '/player-resources',
               },
               {
                 label: '游戏功能',
-                to: 'docs/game-features',
+                to: '/game-features',
               },
             ],
           },
