@@ -95,6 +95,11 @@ const config = {
             label: '游戏功能',
           },
           {
+            href: 'https://hytalecn.com',
+            position: 'left',
+            label: '主站',
+          },
+          {
             href: 'https://github.com/HytaleCN/Docs',
             position: 'right',
             className: 'navbar-item-github',
@@ -126,10 +131,6 @@ const config = {
             title: '社区',
             items: [
               {
-                label: 'HytaleCN',
-                href: 'https://hytalecn.com',
-              },
-              {
                 label: 'QQ 群',
                 href: 'https://qm.qq.com/q/V11WIqBloC',
               },
@@ -142,6 +143,10 @@ const config = {
           {
             title: '更多',
             items: [
+              {
+                label: 'HytaleCN 主站',
+                href: 'https://hytalecn.com',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/HytaleCN/Docs',
