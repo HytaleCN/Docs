@@ -24,7 +24,7 @@ sidebar_position: 2
 
    你可以在购买游戏时，在支付界面填入 `HytaleCN` 来表示对我们的支持。这可以让我们获得你实际支付金额 5% 的佣金。非常感谢你的支持！
 
-   ![](./assets/creator-code-location.png)
+   ![](../../static/img/creator-code-location.png)
 
    :::
 
