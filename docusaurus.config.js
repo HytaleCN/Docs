@@ -113,15 +113,15 @@ const config = {
             items: [
               {
                 label: '玩家支持',
-                to: '/player-support',
+                to: '/',
               },
               {
                 label: '玩家资源',
-                to: '/player-resources',
+                to: '/player-resources/general/frequently-asked-questions',
               },
               {
                 label: '游戏功能',
-                to: '/game-features',
+                to: '/game-features/multiplayer/joining-friends',
               },
             ],
           },
