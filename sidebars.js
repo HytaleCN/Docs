@@ -22,6 +22,7 @@ const sidebars = {
       collapsed: false,
       items: [
         'home/index',
+        'home/faq',
       ],
     },
   ],
