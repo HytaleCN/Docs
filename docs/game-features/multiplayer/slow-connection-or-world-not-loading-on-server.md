@@ -1,10 +1,11 @@
 ---
+displayed_sidebar: gameFeaturesSidebar
 sidebar_position: 2
 ---
 
-# 与好友一起游玩
+# 服务器连接缓慢 / 世界无法加载
 
-> 原文链接：[https://support.hytale.com/hc/en-us/articles/45419578597403-Slow-Connection-World-Not-Loading-on-Server](https://support.hytale.com/hc/en-us/articles/45419578597403-Slow-Connection-World-Not-Loading-on-Server)
+> 原文链接：[https://support.hytale.com/hc/en-us/articles/45419578597403-Slow-Connection-World-Not-Loading-on-Server](https://support.hytale.com/hc/en-us/articles/45419578597403-Slow-Connection-World-Not-Loading-on-Server)<br />
 > 上次更新时间：2026/01/14 06:19
 
 ## 症状
@@ -83,7 +84,7 @@ sidebar_position: 2
 
 1. Advanced EEE - Disabled
 2. ARP Offload - Disabled
-3. EEE Max Support Speed - ﻿1.0 Gbps Full Duplex
+3. EEE Max Support Speed - 1.0 Gbps Full Duplex
 4. Energy-Efficient Ethemet - Disabled
 5. Flow Control - Disabled
 6. Gigabit Lite - Disabled

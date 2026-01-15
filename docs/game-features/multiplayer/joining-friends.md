@@ -1,21 +1,22 @@
 ---
+displayed_sidebar: gameFeaturesSidebar
 sidebar_position: 1
 ---
 
 # 与好友一起游玩
 
-> 原文链接：[https://support.hytale.com/hc/en-us/articles/45324238811291-Joining-Friends](https://support.hytale.com/hc/en-us/articles/45324238811291-Joining-Friends)
+> 原文链接：[https://support.hytale.com/hc/en-us/articles/45324238811291-Joining-Friends](https://support.hytale.com/hc/en-us/articles/45324238811291-Joining-Friends)<br />
 > 上次更新时间：2026/01/12 02:37
 
 本文将介绍如何邀请好友加入你的单人世界，以及如何排查连接问题。
 
 :::info[注意：]
 
-**适用对象：**希望在不搭建专用服务器的情况下与好友一起游玩的玩家。
+**适用对象:** 希望在不搭建专用服务器的情况下与好友一起游玩的玩家。
 
-**网络要求：**好友加入依赖 UPnP 和直连，这些方式并非在所有网络环境下都可用。如果你遇到问题，请参阅“故障排查”，或直接跳转到“Tailscale 或专用服务器托管”等“替代方案”。
+**网络要求:** 好友加入依赖 UPnP 和直连，这些方式并非在所有网络环境下都可用。如果你遇到问题，请参阅“故障排查”，或直接跳转到“Tailscale 或专用服务器托管”等“替代方案”。
 
-**早期系统：**该功能仍在不断完善中。我们正在积极改进，但目前尚无法保证对所有人都能完美运行。
+**早期系统:** 该功能仍在不断完善中。我们正在积极改进，但目前尚无法保证对所有人都能完美运行。
 
 :::
 
@@ -76,9 +77,9 @@ Hytale 允许你在不运行专用服务器的情况下，将单人世界向好�
 
 ### 未生成分享码
 
-**症状：**点击 Save（保存）后未显示分享码，或出现错误。
+**症状:** 点击 Save（保存）后未显示分享码，或出现错误。
 
-**原因与解决方法：**
+**原因与解决方法:**
 
 | 原因 | 解决方法 |
 | :--- | :--- |
@@ -89,9 +90,9 @@ Hytale 允许你在不运行专用服务器的情况下，将单人世界向好�
 
 ### 好友无法连接
 
-**症状：**分享码成功生成，但好友连接超时或失败。
+**症状:** 分享码成功生成，但好友连接超时或失败。
 
-**原因与解决方法：**
+**原因与解决方法:**
 
 | 原因 | 解决方法 |
 | :--- | :--- |
@@ -99,7 +100,7 @@ Hytale 允许你在不运行专用服务器的情况下，将单人世界向好�
 | 防火墙阻止入站连接 | 在 Windows 防火墙中允许 Hytale 通过私有与公用网络 |
 | UPnP 映射过期 | 重新保存 Online Play 设置以刷新映射 |
 | 杀毒软件干扰 | 临时禁用杀毒软件或将 Hytale 添加为例外 |
-| ISP 封锁游戏端口 | 联系 ISP 或使用 [Tailscale](#使用-Tailscale) |
+| ISP 封锁游戏端口 | 联系 ISP 或使用 [Tailscale](#使用-tailscale) |
 
 ### 如何检查是否为 CGNAT
 
@@ -148,7 +149,7 @@ Hytale 允许你在不运行专用服务器的情况下，将单人世界向好�
 
 [Tailscale](https://tailscale.com/) 使用 WireGuard 在设备之间创建点对点 VPN 隧道，可完全绕过 NAT 与防火墙问题。
 
-**设置步骤：**
+**设置步骤:**
 
 1. 双方从 [tailscale.com/download](https://tailscale.com/download) 安装 Tailscale
 2. 双方登录（可使用 Google、Microsoft、GitHub 等）
@@ -156,7 +157,7 @@ Hytale 允许你在不运行专用服务器的情况下，将单人世界向好�
 
 连接后，Hytale 会自动检测 Tailscale 地址并将其包含在分享码中。这些地址会作为连接候选项显示，格式类似 `100.x.x.x` 或 `fd7a:115c:a1e0::*`。
 
-**为什么 Tailscale 有效：**
+**为什么 Tailscale 有效:**
 
 - 建立直接的点对点连接
 - 可穿透大多数 NAT 配置

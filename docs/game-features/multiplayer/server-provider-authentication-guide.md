@@ -1,10 +1,11 @@
 ---
+displayed_sidebar: gameFeaturesSidebar
 sidebar_position: 3
 ---
 
 # 服务器提供商认证指南
 
-> 原文链接：[https://support.hytale.com/hc/en-us/articles/45328341414043-Server-Provider-Authentication-Guide](https://support.hytale.com/hc/en-us/articles/45328341414043-Server-Provider-Authentication-Guide)
+> 原文链接：[https://support.hytale.com/hc/en-us/articles/45328341414043-Server-Provider-Authentication-Guide](https://support.hytale.com/hc/en-us/articles/45328341414043-Server-Provider-Authentication-Guide)<br />
 > 上次更新时间：2026/01/15 00:58
 
 本指南说明服务器托管提供商如何使用具备 `sessions.unlimited_servers` 权限的账户，对 Hytale 专用服务器进行认证。
@@ -19,10 +20,10 @@ sidebar_position: 3
 
 ## 简要说明
 
-**面向希望为 100+ 台服务器实现自动化、0 次点击服务器认证的 GSP 与服务器网络运营方：**
+**面向希望为 100+ 台服务器实现自动化、0 次点击服务器认证的 GSP 与服务器网络运营方:**
 
 1. ~~获取权限 - 通过向 [Hytale 支持团队](https://support.hytale.com/hc/en-us/requests/new) 提供公司信息以获取 `sessions.unlimited_servers` 权限。~~**你已无法再获取该权限。请参阅上文。**
-2. **一次性获取令牌** - 使用 [Device Code Flow](#方法-B：Device-Code-Flow（RFC-8628）) 进行认证并获取 `refresh_token`。
+2. **一次性获取令牌** - 使用 [Device Code Flow](#方法-b：bevice-code-flow（rfc-8628）) 进行认证并获取 `refresh_token`。
 3. **创建会话** - 调用 `/my-account/get-profiles`，然后调用 `/game-session/new` 以获取 `sessionToken` 与 `identityToken`。
 4. **将令牌传递给服务器** - 使用以下方式启动每个服务器实例：
 
@@ -37,15 +38,15 @@ sidebar_position: 3
 
 你的部署系统将集中处理令牌管理——客户永远不会看到任何认证提示。
 
-> **计划中：**我们正在开发一个 CLI 工具，用于为 GSP 的部署系统自动获取与刷新令牌。该工具未能赶上上线时间——请关注 GSP Discord 以获取更新。
+> **计划中:** 我们正在开发一个 CLI 工具，用于为 GSP 的部署系统自动获取与刷新令牌。该工具未能赶上上线时间——请关注 GSP Discord 以获取更新。
 
 ### Hytale Downloader CLI
 
 若需自动化服务器文件下载与更新，请使用 Hytale Downloader CLI。该工具可处理 OAuth2 认证，并可集成到你的部署流水线中，以保持服务器安装为最新状态。
 
-**下载：**[hytale-downloader.zip（快速开始 + Linux 与 Windows）](https://downloader.hytale.com/hytale-downloader.zip)
+**下载:** [hytale-downloader.zip（快速开始 + Linux 与 Windows）](https://downloader.hytale.com/hytale-downloader.zip)
 
-完整用法文档请参阅：[《服务器手册：Hytale Downloader CLI》](/game-features/multiplayer/hytale-server-manual.md#Hytale-Downloader-CLI)。
+完整用法文档请参阅：[《服务器手册：Hytale Downloader CLI》](/game-features/multiplayer/hytale-server-manual.md#hytale-downloader-cli)。
 
 ---
 
@@ -76,7 +77,7 @@ Scopes：openid、offline、auth:server
 | Token | `https://oauth.accounts.hytale.com/oauth2/token` |
 | Device Authorization | `https://oauth.accounts.hytale.com/oauth2/device/auth` |
 
-__**Stage 环境：**将 `hytale.com` 替换为 `arcanitegames.ca`。__
+__**Stage 环境:** 将 `hytale.com` 替换为 `arcanitegames.ca`。__
 
 ---
 
@@ -95,7 +96,7 @@ __**Stage 环境：**将 `hytale.com` 替换为 `arcanitegames.ca`。__
 | `/auth cancel` | 取消进行中的认证流程 |
 | `/auth logout` | 清除认证并终止会话 |
 
-**示例流程：**
+**示例流程:**
 
 ```console
 > /auth login device
@@ -128,7 +129,7 @@ curl -X POST "https://oauth.accounts.hytale.com/oauth2/device/auth" \
   -d "scope=openid offline auth:server"
 ```
 
-**响应：**
+**响应:**
 
 ```json
 {
@@ -145,8 +146,8 @@ curl -X POST "https://oauth.accounts.hytale.com/oauth2/device/auth" \
 
 向用户显示：
 
-- **URL：**`verification_uri` 或 `verification_uri_complete`
-- **Code：**`user_code`（使用 `verification_uri` 时）
+- **URL:** `verification_uri` 或 `verification_uri_complete`
+- **Code:** `user_code`（使用 `verification_uri` 时）
 
 #### 步骤 3：轮询令牌
 
@@ -168,7 +169,7 @@ curl -X POST "https://oauth.accounts.hytale.com/oauth2/token" \
 }
 ```
 
-**成功响应：**
+**成功响应:**
 
 ```json
 {
@@ -187,7 +188,7 @@ curl -X GET "https://account-data.hytale.com/my-account/get-profiles" \
   -H "Authorization: Bearer <access_token>"
 ```
 
-**响应：**
+**响应:**
 
 ```json
 {
@@ -210,7 +211,7 @@ curl -X POST "https://sessions.hytale.com/game-session/new" \
   -d '{"uuid": "123e4567-e89b-12d3-a456-426614174000"}'
 ```
 
-**响应：**
+**响应:**
 
 ```json
 {
@@ -244,7 +245,7 @@ curl -X POST "https://sessions.hytale.com/game-session/new" \
 | `--identity-token <token>` | 身份令牌 |
 | `--owner-uuid <uuid>` | 通过 UUID 自动选择配置文件 |
 
-**示例：**
+**示例:**
 
 ```bash
 ./hytale-server \
@@ -300,10 +301,10 @@ public interface IAuthCredentialStore {
 
 #### 关键行为
 
-- **注册时机：**存储必须在任何认证发生前完成注册
-- **令牌获取：**当需要 OAuth 令牌时，服务器调用 `getTokens()`
-- **令牌持久化：**成功刷新令牌后，服务器调用 `setTokens()`
-- **配置文件选择：**若 `getProfile()` 返回 UUID，将自动选择该配置文件
+- **注册时机:** 存储必须在任何认证发生前完成注册
+- **令牌获取:** 当需要 OAuth 令牌时，服务器调用 `getTokens()`
+- **令牌持久化:** 成功刷新令牌后，服务器调用 `setTokens()`
+- **配置文件选择:** 若 `getProfile()` 返回 UUID，将自动选择该配置文件
 
 ---
 
@@ -374,7 +375,7 @@ curl -X POST "https://oauth.accounts.hytale.com/oauth2/token" \
 | OAuth Refresh Token | 30 天 | 用于获取新的访问令牌 |
 | Game Session | 1 小时 | 在到期前 5 分钟自动刷新 |
 
-**刷新策略：**服务器会在令牌到期前 5 分钟自动执行刷新。如果游戏会话刷新失败，则回退到 OAuth 令牌刷新。
+**刷新策略:** 服务器会在令牌到期前 5 分钟自动执行刷新。如果游戏会话刷新失败，则回退到 OAuth 令牌刷新。
 
 ---
 
@@ -419,7 +420,7 @@ GET /.well-known/jwks.json
 Host: sessions.hytale.com
 ```
 
-**响应：**
+**响应:**
 
 ```json
 {

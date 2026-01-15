@@ -1,10 +1,11 @@
 ---
+displayed_sidebar: playerSupportSidebar
 sidebar_position: 1
 ---
 
 # 支持与反馈
 
-> 原文链接：[https://support.hytale.com/hc/en-us/articles/44294204534555-Support-and-Feedback](https://support.hytale.com/hc/en-us/articles/44294204534555-Support-and-Feedback)
+> 原文链接：[https://support.hytale.com/hc/en-us/articles/44294204534555-Support-and-Feedback](https://support.hytale.com/hc/en-us/articles/44294204534555-Support-and-Feedback)<br />
 > 上次更新时间：2026/01/13 10:55
 
 Hytale 为玩家提供了多种获取帮助、报告问题以及分享反馈的方式。了解在不同问题下应前往的正确渠道，可以确保你的诉求被快速且高效地处理。本文将说明 Hytale 支持体系的组织方式，并为你提供如何有效使用各个渠道的指引。
@@ -13,9 +14,9 @@ Hytale 为玩家提供了多种获取帮助、报告问题以及分享反馈的�
 
 对于需要 Hytale 团队直接协助的问题，官方支持渠道是最佳选择。玩家应在以下情况中使用官方支持：
 
-- **账户问题：**无法登录、账户恢复或凭据访问相关问题。
-- **购买与退款：**有关商店交易的疑问或问题。
-- **技术问题：**安装、更新或启动游戏时遇到的故障。
+- **账户问题:** 无法登录、账户恢复或凭据访问相关问题。
+- **购买与退款:** 有关商店交易的疑问或问题。
+- **技术问题:** 安装、更新或启动游戏时遇到的故障。
 
 使用官方支持可以确保你的问题由 Hytale 工作人员直接处理，并得到妥善解决。
 

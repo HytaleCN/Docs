@@ -4,13 +4,14 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'HytaleCN 文档站',
+  tagline: '获取与 Hytale 有关的文档',
   favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -48,23 +49,10 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/HytaleCN/Docs/',
+          editUrl: 'https://github.com/HytaleCN/Docs/blob/main/',
           routeBasePath: '/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/HytaleCN/Docs/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -88,25 +76,33 @@ const config = {
         },
         items: [
           {
+            type: 'docSidebar',
+            sidebarId: 'playerSupportSidebar',
+            position: 'left',
             label: '玩家支持',
-            to: '/player-support',
-            position: 'left',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'playerResourcesSidebar',
+            position: 'left',
             label: '玩家资源',
-            to: '/player-assets',
-            position: 'left',
           },
           {
-            label: '游戏功能',
-            to: '/game-features',
+            type: 'docSidebar',
+            sidebarId: 'gameFeaturesSidebar',
             position: 'left',
+            label: '游戏功能',
           },
-					{
-						href: 'https://github.com/HytaleCN/Docs',
-						position: 'right',
-						className: 'navbar-item-github',
-					},
+          {
+            href: 'https://github.com/HytaleCN/Docs',
+            position: 'right',
+            className: 'navbar-item-github',
+            'aria-label': 'GitHub 仓库',
+          },
+          {
+            type: 'search',
+            position: 'right',
+          },
         ],
       },
       footer: {

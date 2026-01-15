@@ -1,10 +1,11 @@
 ---
+displayed_sidebar: playerResourcesSidebar
 sidebar_position: 3
 ---
 
 # 退款政策与可用付款方式
 
-> 原文链接：[https://support.hytale.com/hc/en-us/articles/45119888587163-Refund-Policy-and-Available-Payment-Methods](https://support.hytale.com/hc/en-us/articles/45119888587163-Refund-Policy-and-Available-Payment-Methods)
+> 原文链接：[https://support.hytale.com/hc/en-us/articles/45119888587163-Refund-Policy-and-Available-Payment-Methods](https://support.hytale.com/hc/en-us/articles/45119888587163-Refund-Policy-and-Available-Payment-Methods)<br />
 > 上次更新时间：2026/01/08 00:37
 
 ## 退款政策
