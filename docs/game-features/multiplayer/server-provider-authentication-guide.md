@@ -23,7 +23,7 @@ sidebar_position: 3
 **面向希望为 100+ 台服务器实现自动化、0 次点击服务器认证的 GSP 与服务器网络运营方:**
 
 1. ~~获取权限 - 通过向 [Hytale 支持团队](https://support.hytale.com/hc/en-us/requests/new) 提供公司信息以获取 `sessions.unlimited_servers` 权限。~~**你已无法再获取该权限。请参阅上文。**
-2. **一次性获取令牌** - 使用 [Device Code Flow](#方法-b：bevice-code-flow（rfc-8628）) 进行认证并获取 `refresh_token`。
+2. **一次性获取令牌** - 使用 [Device Code Flow](#方法-bdevice-code-flowrfc-8628) 进行认证并获取 `refresh_token`。
 3. **创建会话** - 调用 `/my-account/get-profiles`，然后调用 `/game-session/new` 以获取 `sessionToken` 与 `identityToken`。
 4. **将令牌传递给服务器** - 使用以下方式启动每个服务器实例：
 
