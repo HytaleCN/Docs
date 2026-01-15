@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: playerResourcesSidebar
+displayed_sidebar: officialDocsSidebar
 sidebar_position: 1
 ---
 
@@ -45,7 +45,7 @@ sidebar_position: 1
 
 <ins>如何删除我的 2FA（双重身份验证）？</ins>
 
-**答:** 你可以在 [此处](https://accounts.hytale.com/settings) 的账户设置中移除双重身份验证。有关保障账户安全的更多信息，请参阅我们的文章[**《如何保障你的 Hytale 账户安全》**](/player-support/accounts/how-to-keep-your-hytale-account-secure.md)。
+**答:** 你可以在 [此处](https://accounts.hytale.com/settings) 的账户设置中移除双重身份验证。有关保障账户安全的更多信息，请参阅我们的文章[**《如何保障你的 Hytale 账户安全》**](/official-docs/player-support/accounts/how-to-keep-your-hytale-account-secure.md)。
 
 ---
 

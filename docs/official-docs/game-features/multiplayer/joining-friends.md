@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: gameFeaturesSidebar
+displayed_sidebar: officialDocsSidebar
 sidebar_position: 1
 ---
 
@@ -194,7 +194,7 @@ Hytale 允许你在不运行专用服务器的情况下，将单人世界向好�
 
 **方案二：自行托管**
 
-如果你希望使用自有硬件，请参阅 [Server Manual](/game-features/multiplayer/hytale-server-manual.md)（服务器手册）获取设置说明。
+如果你希望使用自有硬件，请参阅 [Server Manual](/official-docs/game-features/multiplayer/hytale-server-manual.md)（服务器手册）获取设置说明。
 
 ## 技术细节
 

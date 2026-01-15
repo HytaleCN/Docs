@@ -1,6 +1,5 @@
 ---
-slug: /
-displayed_sidebar: playerSupportSidebar
+displayed_sidebar: officialDocsSidebar
 sidebar_position: 1
 ---
 
@@ -26,7 +25,7 @@ Hytale 目前支持 Windows、Mac 和 Linux。更多详情请参阅我们的 **[
 
 你可以通过我们的网站下载 Hytale：[https://accounts.hytale.com/download](https://accounts.hytale.com/download)。该页面会自动检测你当前使用的操作系统，但你也可以在页面底部选择其他系统。
 
-出于安全原因，请始终通过 [Hytale 官方网站](https://hytale.com/) 下载 Hytale 启动器。有关账户安全的更多信息，请参阅我们的[**《如何保障你的 Hytale 账户安全》**](/player-support/accounts/how-to-keep-your-hytale-account-secure.md)文章。
+出于安全原因，请始终通过 [Hytale 官方网站](https://hytale.com/) 下载 Hytale 启动器。有关账户安全的更多信息，请参阅我们的[**《如何保障你的 Hytale 账户安全》**](/official-docs/player-support/accounts/how-to-keep-your-hytale-account-secure.md)文章。
 
 ![](https://support.hytale.com/hc/article_attachments/45306018632219)
 

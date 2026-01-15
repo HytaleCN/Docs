@@ -15,61 +15,95 @@
  @type {import('@docusaurus/plugin-content-docs').SidebarsConfig}
  */
 const sidebars = {
-  playerSupportSidebar: [
+  homeSidebar: [
     {
       type: 'category',
-      label: '入门',
+      label: '首页',
       collapsed: false,
       items: [
-        'player-support/getting-started/how-to-download-and-play-hytale',
-        'player-support/getting-started/how-to-create-a-hytale-account',
-        'player-support/getting-started/how-to-purchase-hytale',
-      ],
-    },
-    {
-      type: 'category',
-      label: '账户',
-      collapsed: false,
-      items: [
-        'player-support/accounts/how-to-keep-your-hytale-account-secure',
-        'player-support/accounts/account-recovery',
-      ],
-    },
-    {
-      type: 'category',
-      label: '社区',
-      collapsed: false,
-      items: [
-        'player-support/community/support-and-feedback',
-        'player-support/community/how-to-join-the-official-hytale-discord-server',
-        'player-support/community/hytale-community',
-        'player-support/community/how-to-report-discord-rule-breakers',
+        'home/index',
       ],
     },
   ],
-  playerResourcesSidebar: [
+  officialDocsSidebar: [
     {
       type: 'category',
-      label: '一般',
+      label: '官方文档',
       collapsed: false,
       items: [
-        'player-resources/general/frequently-asked-questions',
-        'player-resources/general/how-to-find-your-hytale-logs',
-        'player-resources/general/refund-policy-and-available-payment-methods',
-        'player-resources/general/recording-and-screenshot-tools-for-hytale',
-      ],
-    },
-  ],
-  gameFeaturesSidebar: [
-    {
-      type: 'category',
-      label: '多人游戏',
-      collapsed: false,
-      items: [
-        'game-features/multiplayer/joining-friends',
-        'game-features/multiplayer/slow-connection-or-world-not-loading-on-server',
-        'game-features/multiplayer/server-provider-authentication-guide',
-        'game-features/multiplayer/hytale-server-manual',
+        {
+          type: 'category',
+          label: '玩家支持',
+          collapsed: false,
+          items: [
+            {
+              type: 'category',
+              label: '入门',
+              collapsed: false,
+              items: [
+                'official-docs/player-support/getting-started/how-to-download-and-play-hytale',
+                'official-docs/player-support/getting-started/how-to-create-a-hytale-account',
+                'official-docs/player-support/getting-started/how-to-purchase-hytale',
+              ],
+            },
+            {
+              type: 'category',
+              label: '账户',
+              collapsed: false,
+              items: [
+                'official-docs/player-support/accounts/how-to-keep-your-hytale-account-secure',
+                'official-docs/player-support/accounts/account-recovery',
+              ],
+            },
+            {
+              type: 'category',
+              label: '社区',
+              collapsed: false,
+              items: [
+                'official-docs/player-support/community/support-and-feedback',
+                'official-docs/player-support/community/how-to-join-the-official-hytale-discord-server',
+                'official-docs/player-support/community/hytale-community',
+                'official-docs/player-support/community/how-to-report-discord-rule-breakers',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: '玩家资源',
+          collapsed: false,
+          items: [
+            {
+              type: 'category',
+              label: '一般',
+              collapsed: false,
+              items: [
+                'official-docs/player-resources/general/frequently-asked-questions',
+                'official-docs/player-resources/general/how-to-find-your-hytale-logs',
+                'official-docs/player-resources/general/refund-policy-and-available-payment-methods',
+                'official-docs/player-resources/general/recording-and-screenshot-tools-for-hytale',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: '游戏功能',
+          collapsed: false,
+          items: [
+            {
+              type: 'category',
+              label: '多人游戏',
+              collapsed: false,
+              items: [
+                'official-docs/game-features/multiplayer/joining-friends',
+                'official-docs/game-features/multiplayer/slow-connection-or-world-not-loading-on-server',
+                'official-docs/game-features/multiplayer/server-provider-authentication-guide',
+                'official-docs/game-features/multiplayer/hytale-server-manual',
+              ],
+            },
+          ],
+        },
       ],
     },
   ],

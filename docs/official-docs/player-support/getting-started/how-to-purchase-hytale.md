@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: playerSupportSidebar
+displayed_sidebar: officialDocsSidebar
 sidebar_position: 3
 ---
 
@@ -32,7 +32,7 @@ Hytale 仅会在 **2026 年 1 月 13 日** 起开放游玩。
 
 ![](https://support.hytale.com/hc/article_attachments/44299478583067)
 
-最后，你需要登录你的 Hytale 账户；如果你尚未注册，请先创建一个账户。有关创建账户的指引，请参阅本文：[《如何创建 Hytale 账户》](/player-support/getting-started/how-to-create-a-hytale-account.md)。
+最后，你需要登录你的 Hytale 账户；如果你尚未注册，请先创建一个账户。有关创建账户的指引，请参阅本文：[《如何创建 Hytale 账户》](/official-docs/player-support/getting-started/how-to-create-a-hytale-account.md)。
 
 接下来，你可以选择付款方式，输入付款信息，并点击 “Pay”（支付）。
 

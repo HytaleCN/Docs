@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: gameFeaturesSidebar
+displayed_sidebar: officialDocsSidebar
 sidebar_position: 2
 ---
 
