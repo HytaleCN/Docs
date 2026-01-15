@@ -14,9 +14,11 @@ sidebar_position: 2
 
    :::info[注意：]
 
-   在 HytaleCN 及社区的推动下，Hytale 现已推出**国区专属定价**。
-   在进入 Hytale 商店页面（[store.hytalecn.com](https://store.hytale.com/)）时，请勿使用 VPN/加速器等，避免商店将你识别为非中国大陆地区用户，从而无法享受国区专属定价。
+   在 HytaleCN 及社区的推动下，Hytale 现已推出**国区专属定价**。<br />
+   在进入 Hytale 商店页面（[store.hytalecn.com](https://store.hytale.com/)）时，请勿使用 VPN/加速器等，避免商店将你识别为非中国大陆地区用户，从而无法享受国区专属定价。<br />
    截止到 2026/01/15 23:30，Standard（标准版）、Supporter（支持者版）、Cursebreaker（破咒者版）三个版本的**国区专属定价**分别为 $11.35、$19.87、$39.74。由此你可以判断价格是否准确。
+
+   :::
 
    :::tip[提示：]
 
