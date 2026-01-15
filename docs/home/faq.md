@@ -24,6 +24,8 @@ sidebar_position: 2
 
    你可以在购买游戏时，在支付界面填入 `HytaleCN` 来表示对我们的支持。这可以让我们获得你实际支付金额 5% 的佣金。非常感谢你的支持！
 
+   ![](/static/img/creator_code_location.png)
+
    :::
 
 3. **下载游戏。**[点击此处](/official-docs/player-support/getting-started/how-to-purchase-hytale.md) 可查看具体操作步骤。
