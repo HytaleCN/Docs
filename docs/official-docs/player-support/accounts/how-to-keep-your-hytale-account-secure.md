@@ -3,7 +3,7 @@ displayed_sidebar: officialDocsSidebar
 sidebar_position: 1
 ---
 
-# 如何创建 Hytale 账户
+# 如何保障你的 Hytale 账户安全
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44212029550491-How-to-keep-your-Hytale-account-secure](https://support.hytale.com/hc/en-us/articles/44212029550491-How-to-keep-your-Hytale-account-secure)<br />
 > 上次更新时间：2026/01/06 05:13
