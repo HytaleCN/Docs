@@ -82,3 +82,23 @@ sidebar_position: 2
 - 社交系统（好友列表与公会功能）
 
 随着游戏的不断更新，缺少的内容将逐步上线。
+
+### 如何联机？
+
+请参考[《与好友一起游玩》](/official-docs/game-features/multiplayer/hytale-server-manual.md)。
+
+### 如何退款？
+
+请参考[《退款政策与可用付款方式》](/official-docs/player-resources/general/refund-policy-and-available-payment-methods.md)。
+
+### 如何查看日志？
+
+请参考[《如何查找你的 Hytale 日志》](/official-docs/player-resources/general/how-to-find-your-hytale-logs.md)。
+
+### 如何在 Hytale 中录屏 / 截图？
+
+请参考[《Hytale 的录屏与截图工具》](/official-docs/player-resources/general/recording-and-screenshot-tools-for-hytale.md)。
+
+### 如何开服？
+
+请参考[《Hytale 服务器手册》](/official-docs/game-features/multiplayer/hytale-server-manual.md)。
