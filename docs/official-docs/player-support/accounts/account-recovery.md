@@ -6,7 +6,7 @@ sidebar_position: 2
 # 账户恢复
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44134018479131-Account-Recovery](https://support.hytale.com/hc/en-us/articles/44134018479131-Account-Recovery)<br />
-> 上次更新时间：2025/12/12 07:01
+> 上次更新时间：2025/12/12 15:01
 
 # 账户恢复流程
 

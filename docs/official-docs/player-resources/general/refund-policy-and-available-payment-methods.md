@@ -3,33 +3,33 @@ displayed_sidebar: officialDocsSidebar
 sidebar_position: 3
 ---
 
-# 退款政策与可用付款方式
+# 退款政策及可用的支付方式
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/45119888587163-Refund-Policy-and-Available-Payment-Methods](https://support.hytale.com/hc/en-us/articles/45119888587163-Refund-Policy-and-Available-Payment-Methods)<br />
-> 上次更新时间：2026/01/08 00:37
+> 上次更新时间：2026/01/19 07:14
 
 ## 退款政策
 
-- 在 2026 年 1 月 13 日抢先体验开始之前，你可以随时为已购买的抢先体验游戏版本申请退款。抢先体验上线后，在发布日起 14 天内，且游戏时长少于 4 小时的情况下，你仍可申请退款。
-- 如果你的购买发生在抢先体验上线之后，你可在购买后 14 天内，且游戏时长少于 4 小时的情况下申请退款。
+我们允许您在抢先体验开始之前的任意时间为您的抢先体验游戏版本申请退款。抢先体验将于 2026 年 1 月 13 日开始。抢先体验发布后，若您的游玩时间少于 4 小时，您可在发布后的 14 天内申请退款。
 
-如果你符合以上条件，请通过 [support.hytale.com](https://support.hytale.com/) 提交支持工单，以处理所有与退款相关的咨询。
+如果您的购买发生在抢先体验上线之后，且游玩时间少于 4 小时，您可在购买后的 14 天内申请退款。
+
+如果您符合上述条件，请通过 [support.hytale.com](https://support.hytale.com/) 提交支持工单，以咨询任何与退款相关的问题。
 
 :::info[注意：]
 
-请注意，部分付款方式不支持通过其系统进行退款。请查看下方的付款方式列表，以确认哪些方式支持退款。
+请注意，部分支付方式不支持通过其系统进行退款。请查看支付方式列表以了解具体情况。
 
-如对这些付款方式有任何疑问，请联系 Tebex 支持团队：[www.tebex.io/support](https://support.hytale.com/hc/en-us/articles/www.tebex.io/support)。
-
+如需就这些支付方式进行咨询，请通过 [https://www.tebex.io/support](https://www.tebex.io/support) 联系 Tebex 客服支持。
 :::
 
-## 可用的付款方式有哪些？
+## 提供哪些支付方式？
 
-- Credit/Debit Cards
+- 信用卡/借记卡
 - PayPal
-- Alipay
-- Appotapay - **不予退款**
-- Banco Do Brasil
+- 支付宝
+- Appotapay - **不支持退款**
+- 巴西银行（Banco Do Brasil）
 - Bancontact
 - Belfius Direct Net
 - BLIK
@@ -37,56 +37,56 @@ sidebar_position: 3
 - Boost
 - Bradesco
 - CashApp
-- Dana - **不予退款**
-- Dragonpay Convenience Stores Philippines - **不予退款**
-- Dragonpay eBanking - **不予退款**
+- Dana - **不支持退款**
+- Dragonpay 便利店（菲律宾）- **不支持退款**
+- Dragonpay 电子银行 - **不支持退款**
 - Efecty
 - EPS
-- GrabPay (PH) - **不予退款**
+- GrabPay（菲律宾）- **不支持退款**
 - iDeal
-- Internet Banking (PH) - **不予退款**
-- Internet Banking (VN) - **不予退款**
+- 互联网银行（菲律宾）- **不支持退款**
+- 互联网银行（越南）- **不支持退款**
 - Itau
 - Kakao Pay
 - KBC/CBC
 - Klarna
 - LINE Pay
-- Linkaja - **不予退款**
+- Linkaja - **不支持退款**
 - MACH
-- Mercado Pago (MX)
-- Mobile Banking (TH) - **不予退款**
+- Mercado Pago（墨西哥）
+- 移动银行（泰国）- **不支持退款**
 - MobilePay
-- Momo - **不予退款**
-- Multibanco - **不予退款**
+- Momo - **不支持退款**
+- Multibanco - **不支持退款**
 - NAVER Pay
 - Nequi
-- Online Banking India
-- Ovo - **不予退款**
+- 印度在线银行
+- Ovo - **不支持退款**
 - OXXO
 - PagoEfectivo
 - PagoFacil
-- Pay by Bank
-- Pay with Crypto - **不予退款**
-- Paynow - **不予退款**
+- 银行转账支付
+- 加密货币支付 - **不支持退款**
+- Paynow - **不支持退款**
 - Paysafecard
 - PicPay
 - Pix
-- PromptPay QR - **不予退款**
+- PromptPay QR - **不支持退款**
 - Przelewy24
 - PSE
 - RapiPago
 - Sencillito
-- SEPA Bank Transfer
+- SEPA 银行转账
 - Servipag
-- ShopeePay (ID) - **不予退款**
-- ShopeePay (PH) - **不予退款**
-- ShopeePay (VN) - **不予退款**
-- SOFORT Banking
-- SPEI Bank Transfers
+- ShopeePay（印度尼西亚）- **不支持退款**
+- ShopeePay（菲律宾）- **不支持退款**
+- ShopeePay（越南）- **不支持退款**
+- SOFORT 银行支付
+- SPEI 银行转账
 - Swish
 - TWINT
 - UPI
 - ViaBaloto
 - Vipps
-- VNPT Pay - **不予退款**
+- VNPT Pay - **不支持退款**
 - WebPay

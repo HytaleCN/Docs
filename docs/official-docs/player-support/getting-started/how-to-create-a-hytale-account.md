@@ -6,7 +6,7 @@ sidebar_position: 2
 # 如何创建 Hytale 账户
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44134044725787-How-to-Create-a-Hytale-Account](https://support.hytale.com/hc/en-us/articles/44134044725787-How-to-Create-a-Hytale-Account)<br />
-> 上次更新时间：2026/01/07 18:52
+> 上次更新时间：2026/01/08 02:52
 
 要游玩 Hytale，你需要在我们的网站上创建一个账户并注册你的用户名。这还将允许你管理个人资料、设置，并使用我们的商店。
 

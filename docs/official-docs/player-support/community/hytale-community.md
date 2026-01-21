@@ -6,7 +6,7 @@ sidebar_position: 3
 # Hytale 社区
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44019394596123-Hytale-Community](https://support.hytale.com/hc/en-us/articles/44019394596123-Hytale-Community)<br />
-> 上次更新时间：2025/12/12 05:22
+> 上次更新时间：2025/12/12 13:22
 
 Hytale 社区是玩家们聚集在一起分享想法、展示正在进行的创作，并了解幕后动态的地方。虽然 Hytale 在多个社交平台上都有官方存在，但官方 Discord 服务器是所有内容汇聚的核心场所。
 

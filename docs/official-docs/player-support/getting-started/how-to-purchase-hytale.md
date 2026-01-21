@@ -6,7 +6,7 @@ sidebar_position: 3
 # 如何购买 Hytale
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44134019782939-How-to-Purchase-Hytale](https://support.hytale.com/hc/en-us/articles/44134019782939-How-to-Purchase-Hytale)<br />
-> 上次更新时间：2025/12/14 01:09
+> 上次更新时间：2025/12/14 09:09
 
 感谢你对 Hytale 的关注！预购将在抢先体验版发布前开放。游戏的抢先体验版将于 **2026 年 1 月 13 日** 上线，届时你即可开始在 Hytale 中的冒险之旅。
 

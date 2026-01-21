@@ -6,7 +6,7 @@ sidebar_position: 2
 # 如何查找你的 Hytale 日志
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/45315447521947-How-to-Find-Your-Hytale-Logs](https://support.hytale.com/hc/en-us/articles/45315447521947-How-to-Find-Your-Hytale-Logs)<br />
-> 上次更新时间：2026/01/14 07:20
+> 上次更新时间：2026/01/14 15:20
 
 ## 定位日志文件
 

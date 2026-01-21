@@ -6,7 +6,7 @@ sidebar_position: 1
 # 常见问题解答
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44927031669275-Frequently-Asked-Questions](https://support.hytale.com/hc/en-us/articles/44927031669275-Frequently-Asked-Questions)<br />
-> 上次更新时间：2026/01/11 05:18
+> 上次更新时间：2026/01/11 13:18
 
 ### 目录
 

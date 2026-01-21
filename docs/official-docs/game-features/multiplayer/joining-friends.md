@@ -6,7 +6,7 @@ sidebar_position: 1
 # 与好友一起游玩
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/45324238811291-Joining-Friends](https://support.hytale.com/hc/en-us/articles/45324238811291-Joining-Friends)<br />
-> 上次更新时间：2026/01/12 02:37
+> 上次更新时间：2026/01/12 10:37
 
 本文将介绍如何邀请好友加入你的单人世界，以及如何排查连接问题。
 

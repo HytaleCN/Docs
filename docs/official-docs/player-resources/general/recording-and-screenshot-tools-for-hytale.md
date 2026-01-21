@@ -6,7 +6,7 @@ sidebar_position: 4
 # Hytale 的录屏与截图工具
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44369721040923-Recording-and-Screenshot-Tools-for-Hytale](https://support.hytale.com/hc/en-us/articles/44369721040923-Recording-and-Screenshot-Tools-for-Hytale)<br />
-> 上次更新时间：2025/12/14 22:19
+> 上次更新时间：2025/12/15 06:19
 
 :::info[注意：]
 

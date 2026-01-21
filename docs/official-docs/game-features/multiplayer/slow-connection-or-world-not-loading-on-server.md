@@ -6,7 +6,7 @@ sidebar_position: 2
 # 服务器连接缓慢 / 世界无法加载
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/45419578597403-Slow-Connection-World-Not-Loading-on-Server](https://support.hytale.com/hc/en-us/articles/45419578597403-Slow-Connection-World-Not-Loading-on-Server)<br />
-> 上次更新时间：2026/01/14 06:19
+> 上次更新时间：2026/01/14 14:19
 
 ## 症状
 

@@ -6,7 +6,7 @@ sidebar_position: 4
 # 如何举报 Discord 规则违规者
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/43948452847387-How-to-Report-Discord-Rule-Breakers](https://support.hytale.com/hc/en-us/articles/43948452847387-How-to-Report-Discord-Rule-Breakers)<br />
-> 上次更新时间：2026/01/06 05:23
+> 上次更新时间：2026/01/06 13:23
 
 Hytale 支持团队无法处理举报。目前，我们的版主团队仅能处理发生在我们官方平台——Hytale Discord 服务器——上的相关事件举报。
 

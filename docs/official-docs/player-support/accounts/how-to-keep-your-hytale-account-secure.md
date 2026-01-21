@@ -6,7 +6,7 @@ sidebar_position: 1
 # 如何保障你的 Hytale 账户安全
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44212029550491-How-to-keep-your-Hytale-account-secure](https://support.hytale.com/hc/en-us/articles/44212029550491-How-to-keep-your-Hytale-account-secure)<br />
-> 上次更新时间：2026/01/06 05:13
+> 上次更新时间：2026/01/06 13:13
 
 保障你的 Hytale 账户安全对于防止未经授权的访问至关重要。请严格遵循以下每一个步骤，以确保你的账户和个人信息得到充分保护。
 
