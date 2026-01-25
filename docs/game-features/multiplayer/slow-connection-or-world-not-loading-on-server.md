@@ -3,6 +3,8 @@ displayed_sidebar: gameFeaturesSidebar
 sidebar_position: 2
 ---
 
+# 服务器连接缓慢 / 世界无法加载
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 2
 > 上次更新时间：2026/01/14 14:19
 
 :::
-
-# 服务器连接缓慢 / 世界无法加载
 
 ## 症状
 

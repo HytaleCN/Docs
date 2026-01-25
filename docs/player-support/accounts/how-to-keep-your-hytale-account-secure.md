@@ -3,6 +3,8 @@ displayed_sidebar: playerSupportSidebar
 sidebar_position: 1
 ---
 
+# 如何保障你的 Hytale 账户安全
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 1
 > 上次更新时间：2026/01/06 13:13
 
 :::
-
-# 如何保障你的 Hytale 账户安全
 
 保障你的 Hytale 账户安全对于防止未经授权的访问至关重要。请严格遵循以下每一个步骤，以确保你的账户和个人信息得到充分保护。
 

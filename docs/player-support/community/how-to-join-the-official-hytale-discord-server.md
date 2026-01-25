@@ -3,6 +3,8 @@ displayed_sidebar: playerSupportSidebar
 sidebar_position: 2
 ---
 
+# 如何加入 Hytale 官方 Discord 服务器
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 2
 > 上次更新时间：2026/01/11 18:38
 
 :::
-
-# 如何加入 Hytale 官方 Discord 服务器
 
 **Hytale 官方 Discord 邀请链接为：[https://discord.gg/hytale](https://discord.gg/hytale)。**
 

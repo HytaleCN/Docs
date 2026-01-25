@@ -3,6 +3,8 @@ displayed_sidebar: playerSupportSidebar
 sidebar_position: 3
 ---
 
+# Hytale 社区
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 3
 > 上次更新时间：2025/12/12 13:22
 
 :::
-
-# Hytale 社区
 
 Hytale 社区是玩家们聚集在一起分享想法、展示正在进行的创作，并了解幕后动态的地方。虽然 Hytale 在多个社交平台上都有官方存在，但官方 Discord 服务器是所有内容汇聚的核心场所。
 

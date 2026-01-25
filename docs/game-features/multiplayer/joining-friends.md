@@ -3,6 +3,8 @@ displayed_sidebar: gameFeaturesSidebar
 sidebar_position: 1
 ---
 
+# 与好友一起游玩
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 1
 > 上次更新时间：2026/01/12 10:37
 
 :::
-
-# 与好友一起游玩
 
 本文将介绍如何邀请好友加入你的单人世界，以及如何排查连接问题。
 

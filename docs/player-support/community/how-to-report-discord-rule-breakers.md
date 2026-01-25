@@ -3,6 +3,8 @@ displayed_sidebar: playerSupportSidebar
 sidebar_position: 4
 ---
 
+# 如何举报 Discord 规则违规者
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 4
 > 上次更新时间：2026/01/06 13:23
 
 :::
-
-# 如何举报 Discord 规则违规者
 
 Hytale 支持团队无法处理举报。目前，我们的版主团队仅能处理发生在我们官方平台——Hytale Discord 服务器——上的相关事件举报。
 

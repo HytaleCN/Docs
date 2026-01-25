@@ -3,6 +3,8 @@ displayed_sidebar: playerSupportSidebar
 sidebar_position: 1
 ---
 
+# 如何下载并游玩 Hytale
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 1
 > 上次更新时间：2026/01/11 14:59
 
 :::
-
-# 如何下载并游玩 Hytale
 
 ### 目录
 

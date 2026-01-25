@@ -3,6 +3,8 @@ displayed_sidebar: playerSupportSidebar
 sidebar_position: 3
 ---
 
+# 如何购买 Hytale
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 3
 > 上次更新时间：2025/12/14 09:09
 
 :::
-
-# 如何购买 Hytale
 
 感谢你对 Hytale 的关注！预购将在抢先体验版发布前开放。游戏的抢先体验版将于 **2026 年 1 月 13 日** 上线，届时你即可开始在 Hytale 中的冒险之旅。
 

@@ -3,6 +3,8 @@ displayed_sidebar: gameFeaturesSidebar
 sidebar_position: 3
 ---
 
+# 服务器提供商身份验证指南
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 3
 > 上次更新时间：2026/01/16 06:06
 
 :::
-
-# 服务器提供商身份验证指南
 
 本指南介绍了服务器托管提供商如何使用具备 `sessions.unlimited_servers` 权限的账户，对 Hytale 专用服务器进行身份验证。
 

@@ -3,6 +3,8 @@ displayed_sidebar: playerSupportSidebar
 sidebar_position: 2
 ---
 
+# 如何创建 Hytale 账户
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 2
 > 上次更新时间：2026/01/08 02:52
 
 :::
-
-# 如何创建 Hytale 账户
 
 要游玩 Hytale，你需要在我们的网站上创建一个账户并注册你的用户名。这还将允许你管理个人资料、设置，并使用我们的商店。
 

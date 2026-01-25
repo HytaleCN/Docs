@@ -3,6 +3,8 @@ displayed_sidebar: playerSupportSidebar
 sidebar_position: 2
 ---
 
+# 账户恢复
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 2
 > 上次更新时间：2025/12/12 15:01
 
 :::
-
-# 账户恢复
 
 # 账户恢复流程
 

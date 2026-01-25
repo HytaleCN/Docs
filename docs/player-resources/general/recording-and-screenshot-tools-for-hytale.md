@@ -3,6 +3,8 @@ displayed_sidebar: playerResourcesSidebar
 sidebar_position: 4
 ---
 
+# Hytale 的录屏与截图工具
+
 :::tip[提示：]
 
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
@@ -11,8 +13,6 @@ sidebar_position: 4
 > 上次更新时间：2025/12/15 06:19
 
 :::
-
-# Hytale 的录屏与截图工具
 
 :::info[注意：]
 
