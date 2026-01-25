@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: officialDocsSidebar
+displayed_sidebar: userDocsSidebar
 sidebar_position: 4
 ---
 
@@ -163,7 +163,7 @@ Hytale 服务器需要身份验证，以启用与服务 API 的通信并防止�
 
 :::
 
-如果需要为大量服务器进行身份验证，或自动、动态地为服务器完成身份验证，请阅读[《服务器提供商身份验证指南》](/official-docs/game-features/multiplayer/server-provider-authentication-guide.md)以获取详细信息。
+如果需要为大量服务器进行身份验证，或自动、动态地为服务器完成身份验证，请阅读[《服务器提供商身份验证指南》](/game-features/multiplayer/server-provider-authentication-guide.md)以获取详细信息。
 
 ### 帮助
 

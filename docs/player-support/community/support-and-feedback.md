@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: officialDocsSidebar
+displayed_sidebar: userDocsSidebar
 sidebar_position: 1
 ---
 

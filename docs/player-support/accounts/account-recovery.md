@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: officialDocsSidebar
+displayed_sidebar: userDocsSidebar
 sidebar_position: 2
 ---
 
@@ -40,7 +40,7 @@ sidebar_position: 2
 
 ![](https://support.hytale.com/hc/article_attachments/44300662148379)
 
-在设置新密码时，请务必选择一个强密码，并遵循我们在[《如何保障你的 Hytale 账户安全》](/official-docs/player-support/accounts/how-to-keep-your-hytale-account-secure.md)中的安全建议。
+在设置新密码时，请务必选择一个强密码，并遵循我们在[《如何保障你的 Hytale 账户安全》](/player-support/accounts/how-to-keep-your-hytale-account-secure.md)中的安全建议。
 
 ![](https://support.hytale.com/hc/article_attachments/44300674005531)
 

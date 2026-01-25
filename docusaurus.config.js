@@ -84,9 +84,21 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'officialDocsSidebar',
+            sidebarId: 'playerSupportSidebar',
             position: 'left',
-            label: '官方文档',
+            label: '玩家支持',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'playerResourcesSidebar',
+            position: 'left',
+            label: '玩家资源',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'gameFeaturesSidebar',
+            position: 'left',
+            label: '游戏功能',
           },
           {
             href: 'https://hytalecn.com',
@@ -112,8 +124,20 @@ const config = {
                 to: '/',
               },
               {
-                label: '官方文档',
-                to: '/official-docs/player-support/getting-started/how-to-download-and-play-hytale',
+                label: '玩家支持',
+                to: '/player-support/getting-started/how-to-download-and-play-hytale',
+              },
+              {
+                label: '玩家资源',
+                to: '/player-resources/general/frequently-asked-questions',
+              },
+              {
+                label: '游戏功能',
+                to: '/game-features/multiplayer/joining-friends',
+              },
+              {
+                label: 'NPC',
+                to: '/npc',
               },
             ],
           },

@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: officialDocsSidebar
+displayed_sidebar: userDocsSidebar
 sidebar_position: 2
 ---
 
@@ -22,7 +22,7 @@ sidebar_position: 2
 
 ![](https://support.hytale.com/hc/article_attachments/44300101097243)
 
-请确保在注册时可以访问该电子邮箱地址，并选择一个安全的密码。要了解更多关于账户安全的信息，请访问我们的文章：[《如何保障你的 Hytale 账户安全》](/official-docs/player-support/accounts/how-to-keep-your-hytale-account-secure.md)。
+请确保在注册时可以访问该电子邮箱地址，并选择一个安全的密码。要了解更多关于账户安全的信息，请访问我们的文章：[《如何保障你的 Hytale 账户安全》](/player-support/accounts/how-to-keep-your-hytale-account-secure.md)。
 
 ![](https://support.hytale.com/hc/article_attachments/44300101098523)
 

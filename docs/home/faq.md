@@ -9,8 +9,8 @@ sidebar_position: 2
 
 总体来说，你可以参考以下步骤完成购买：
 
-1. **创建 Hytale 账户。**[点击此处](/official-docs/player-support/getting-started/how-to-create-a-hytale-account.md) 可查看具体操作步骤。
-2. **使用刚刚注册的 Hytale 账户购买游戏。**[点击此处](/official-docs/player-support/getting-started/how-to-purchase-hytale.md) 可查看具体操作步骤。
+1. **创建 Hytale 账户。**[点击此处](/player-support/getting-started/how-to-create-a-hytale-account.md) 可查看具体操作步骤。
+2. **使用刚刚注册的 Hytale 账户购买游戏。**[点击此处](/player-support/getting-started/how-to-purchase-hytale.md) 可查看具体操作步骤。
 
    :::info[注意：]
 
@@ -28,9 +28,9 @@ sidebar_position: 2
 
    :::
 
-3. **下载游戏。**[点击此处](/official-docs/player-support/getting-started/how-to-purchase-hytale.md) 可查看具体操作步骤。
+3. **下载游戏。**[点击此处](/player-support/getting-started/how-to-purchase-hytale.md) 可查看具体操作步骤。
 4. **加入社区。**（可选）
-   - Hytale 官方 Discord 服务器：[https://discord.gg/hytale](https://discord.gg/hytale)。更多相关内容可以 [点击此处](/official-docs/player-support/community/how-to-join-the-official-hytale-discord-server.md) 查看。
+   - Hytale 官方 Discord 服务器：[https://discord.gg/hytale](https://discord.gg/hytale)。更多相关内容可以 [点击此处](/player-support/community/how-to-join-the-official-hytale-discord-server.md) 查看。
    - Hytale 非官方社区 HytaleCN（本站）：
      - 网址：[https://hytalecn.com](https://hytalecn.com)。
      - QQ 群：[https://qm.qq.com/q/V11WIqBloC](https://qm.qq.com/q/V11WIqBloC)。
@@ -85,20 +85,20 @@ sidebar_position: 2
 
 ### 如何联机？
 
-请参考[《与好友一起游玩》](/official-docs/game-features/multiplayer/hytale-server-manual.md)。
+请参考[《与好友一起游玩》](/game-features/multiplayer/hytale-server-manual.md)。
 
 ### 如何退款？
 
-请参考[《退款政策与可用付款方式》](/official-docs/player-resources/general/refund-policy-and-available-payment-methods.md)。
+请参考[《退款政策与可用付款方式》](/player-resources/general/refund-policy-and-available-payment-methods.md)。
 
 ### 如何查看日志？
 
-请参考[《如何查找你的 Hytale 日志》](/official-docs/player-resources/general/how-to-find-your-hytale-logs.md)。
+请参考[《如何查找你的 Hytale 日志》](/player-resources/general/how-to-find-your-hytale-logs.md)。
 
 ### 如何在 Hytale 中录屏 / 截图？
 
-请参考[《Hytale 的录屏与截图工具》](/official-docs/player-resources/general/recording-and-screenshot-tools-for-hytale.md)。
+请参考[《Hytale 的录屏与截图工具》](/player-resources/general/recording-and-screenshot-tools-for-hytale.md)。
 
 ### 如何开服？
 
-请参考[《Hytale 服务器手册》](/official-docs/game-features/multiplayer/hytale-server-manual.md)。
+请参考[《Hytale 服务器手册》](/game-features/multiplayer/hytale-server-manual.md)。
