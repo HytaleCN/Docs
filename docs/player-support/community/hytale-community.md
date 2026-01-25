@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: userDocsSidebar
+displayed_sidebar: playerSupportSidebar
 sidebar_position: 3
 ---
 

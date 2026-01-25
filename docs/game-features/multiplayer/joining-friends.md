@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: userDocsSidebar
+displayed_sidebar: gameFeaturesSidebar
 sidebar_position: 1
 ---
 
