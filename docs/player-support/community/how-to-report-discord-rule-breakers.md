@@ -7,7 +7,7 @@ sidebar_position: 4
 
 :::tip[提示：]
 
-这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
+这篇文章来自 Hytale 官方，我们仅对原文进行了翻译和排版处理。
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/43948452847387-How-to-Report-Discord-Rule-Breakers](https://support.hytale.com/hc/en-us/articles/43948452847387-How-to-Report-Discord-Rule-Breakers)<br />
 > 上次更新时间：2026/01/06 13:23

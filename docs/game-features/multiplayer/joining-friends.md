@@ -7,7 +7,7 @@ sidebar_position: 1
 
 :::tip[提示：]
 
-这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
+这篇文章来自 Hytale 官方，我们仅对原文进行了翻译和排版处理。
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/45324238811291-Joining-Friends](https://support.hytale.com/hc/en-us/articles/45324238811291-Joining-Friends)<br />
 > 上次更新时间：2026/01/12 10:37

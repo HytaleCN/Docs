@@ -7,7 +7,7 @@ sidebar_position: 2
 
 :::tip[提示：]
 
-这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
+这篇文章来自 Hytale 官方，我们仅对原文进行了翻译和排版处理。
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44134018479131-Account-Recovery](https://support.hytale.com/hc/en-us/articles/44134018479131-Account-Recovery)<br />
 > 上次更新时间：2025/12/12 15:01

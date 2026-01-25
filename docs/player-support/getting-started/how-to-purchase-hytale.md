@@ -7,7 +7,7 @@ sidebar_position: 3
 
 :::tip[提示：]
 
-这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
+这篇文章来自 Hytale 官方，我们仅对原文进行了翻译和排版处理。
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44134019782939-How-to-Purchase-Hytale](https://support.hytale.com/hc/en-us/articles/44134019782939-How-to-Purchase-Hytale)<br />
 > 上次更新时间：2025/12/14 09:09
