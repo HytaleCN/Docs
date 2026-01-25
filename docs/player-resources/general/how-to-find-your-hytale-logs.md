@@ -3,10 +3,16 @@ displayed_sidebar: playerResourcesSidebar
 sidebar_position: 2
 ---
 
-# 如何查找你的 Hytale 日志
+:::tip[提示：]
+
+这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/45315447521947-How-to-Find-Your-Hytale-Logs](https://support.hytale.com/hc/en-us/articles/45315447521947-How-to-Find-Your-Hytale-Logs)<br />
 > 上次更新时间：2026/01/14 15:20
+
+:::
+
+# 如何查找你的 Hytale 日志
 
 ## 定位日志文件
 

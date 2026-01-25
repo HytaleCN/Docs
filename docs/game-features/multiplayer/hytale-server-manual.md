@@ -3,10 +3,16 @@ displayed_sidebar: gameFeaturesSidebar
 sidebar_position: 4
 ---
 
-# Hytale 服务器手册
+:::tip[提示：]
+
+这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual](https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual)<br />
 > 上次更新时间：2026/01/19 08:57
+
+:::
+
+# Hytale 服务器手册
 
 本文介绍了专用 Hytale 服务器的搭建、配置与运行。
 

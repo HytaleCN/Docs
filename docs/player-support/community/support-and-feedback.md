@@ -3,10 +3,16 @@ displayed_sidebar: playerSupportSidebar
 sidebar_position: 1
 ---
 
-# 支持与反馈
+:::tip[提示：]
+
+这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44294204534555-Support-and-Feedback](https://support.hytale.com/hc/en-us/articles/44294204534555-Support-and-Feedback)<br />
 > 上次更新时间：2026/01/13 18:55
+
+:::
+
+# 支持与反馈
 
 Hytale 为玩家提供了多种获取帮助、报告问题以及分享反馈的方式。了解在不同问题下应前往的正确渠道，可以确保你的诉求被快速且高效地处理。本文将说明 Hytale 支持体系的组织方式，并为你提供如何有效使用各个渠道的指引。
 

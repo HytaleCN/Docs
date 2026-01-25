@@ -3,10 +3,16 @@ displayed_sidebar: playerResourcesSidebar
 sidebar_position: 1
 ---
 
-# 常见问题解答
+:::tip[提示：]
+
+这篇文章来自 Hytale 官方，我们仅对原文进行了翻译处理。
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/44927031669275-Frequently-Asked-Questions](https://support.hytale.com/hc/en-us/articles/44927031669275-Frequently-Asked-Questions)<br />
 > 上次更新时间：2026/01/11 13:18
+
+:::
+
+# 常见问题解答
 
 ### 目录
 
