@@ -123,7 +123,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '文档',
+            title: '目录',
             items: [
               {
                 label: '首页',

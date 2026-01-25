@@ -10,7 +10,7 @@ sidebar_position: 4
 这篇文章来自 Hytale 官方，我们仅对原文进行了翻译和排版处理。
 
 > 原文链接：[https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual](https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual)<br />
-> 上次更新时间：2026/01/19 08:57
+> 上次更新时间：2026/01/23 11:53
 
 :::
 
@@ -18,7 +18,7 @@ sidebar_position: 4
 
 :::info[注意：]
 
-**目标读者:** 服务器管理员以及自行托管专用服务器的玩家。
+**目标读者:** 服务器管理员以及托管专用服务器的玩家。
 
 :::
 
@@ -37,18 +37,18 @@ sidebar_position: 4
 
 Hytale 服务器可运行在任何至少具备 4GB 内存并安装 Java 25 的设备上。支持 x64 与 arm64 架构。
 
-我们建议在服务器运行期间监控 RAM 与 CPU 使用情况，以了解在当前玩家数量与玩法风格下的典型资源消耗——资源使用高度依赖玩家行为。
+我们建议在服务器运行期间监控 RAM 与 CPU 使用情况，以了解在当前玩家数量与玩法风格下的典型资源消耗——资源使用在很大程度上取决于玩家行为。
 
-**通用指导:**
+**通用指导：**
 
 | 资源 | 驱动因素 |
 | :--- | :--- |
-| CPU  | 玩家数量或实体数量较高（NPC、怪物） |
-| RAM  | 已加载的世界区域较大（较高视距、玩家分散探索） |
+| CPU | 玩家数量或实体数量较高（NPC、怪物） |
+| RAM | 已加载的世界区域较大（较高视距、玩家分散探索） |
 
 :::info[注意：]
 
-在没有专用工具的情况下，往往难以判断 Java 进程实际需要多少已分配的 RAM。请尝试为 Java 的 -Xmx 参数设置不同的值以明确限制。内存压力的一个典型表现是由于垃圾回收而导致的 CPU 使用率上升。
+在没有专用工具的情况下，往往难以判断 Java 进程实际需要多少已分配的 RAM。请尝试为 Java 的 `-Xmx` 参数设置不同的值以明确限制。内存压力的一个典型表现是由于垃圾回收导致的 CPU 使用率上升。
 
 :::
 
@@ -86,9 +86,9 @@ OpenJDK 64-Bit Server VM Temurin-25.0.1+8 (build 25.0.1+8-LTS, mixed mode, shari
 在启动器安装目录中找到以下文件：
 
 ```
-Windows：%appdata%\Hytale\install\release\package\game\latest
-Linux：$XDG_DATA_HOME/Hytale/install/release/package/game/latest
-MacOS：~/Application Support/Hytale/install/release/package/game/latest
+Windows: %appdata%\Hytale\install\release\package\game\latest
+Linux: $XDG_DATA_HOME/Hytale/install/release/package/game/latest
+MacOS: ~/Application Support/Hytale/install/release/package/game/latest
 ```
 
 列出目录内容：
@@ -152,7 +152,7 @@ Or visit: https://accounts.hytale.com/device?user_code=ABCD-1234
 ===================================================================
 Waiting for authorization (expires in 900 seconds)...
 
-[User completes authorization in browser]
+[用户在浏览器中完成授权]
 
 > Authentication successful! Mode: OAUTH_DEVICE
 ```
@@ -237,7 +237,7 @@ sudo ufw allow 5520/udp
 在大多数情况下，QUIC 能很好地处理 NAT 穿透。如果玩家连接存在问题：
 
 - 确保端口转发明确为 **UDP**，而非 TCP
-- 对称型 NAT 可能导致问题——可考虑使用 VPS 或专用服务器
+- 对称型 NAT 配置可能导致问题——可考虑使用 VPS 或专用服务器
 - 位于运营商级 NAT 之后的玩家（移动网络中常见）作为客户端通常可以正常连接
 
 ### 文件结构
@@ -325,7 +325,7 @@ sudo ufw allow 5520/udp
 java -jar HytaleServer.jar --assets Assets.zip --disable-sentry
 ```
 
-### 利用预先编译缓存
+### 利用预编译缓存
 
 服务器自带预训练的 AOT 缓存（`HytaleServer.aot`），可通过跳过 JIT 预热来缩短启动时间。参见 [JEP-514](https://openjdk.org/jeps/514)。
 
@@ -436,18 +436,42 @@ Hytale 协议使用哈希来验证客户端与服务器的兼容性。如果哈�
 
 配置文件（`config.json`、`permissions.json` 等）会在服务器启动时读取，并在发生游戏内操作时写入（例如通过命令分配权限）。服务器运行期间进行的手动修改很可能会被覆盖。
 
-### Maven Central 构件
+### Maven 构件
 
-HytaleServer jar 将发布至 Maven Central，供模组项目作为依赖使用。
+HytaleServer jar 将发布到 Maven 仓库，供模组项目作为依赖使用。
+
+将仓库添加到你的 pom.xml：
+
+```xml
+<repositories>
+    <!-- Hytale 发布（release）仓库 -->
+    <repository>
+        <id>hytale-release</id>
+        <url>https://maven.hytale.com/release</url>
+    </repository>
+    <!-- Hytale 预发布（pre-release）仓库 -->
+    <repository>
+        <id>hytale-pre-release</id>
+        <url>https://maven.hytale.com/pre-release</url>
+    </repository>
+</repositories>
+```
+
+将依赖添加到你的 pom.xml：
 
 ```xml
 <dependency>
     <groupId>com.hypixel.hytale</groupId>
     <artifactId>Server</artifactId>
+    <!-- 替换为最新版本，我们会提供最近五个版本的 jar 文件 -->
+    <version>2026.01.22-6f8bdbdc4</version>
 </dependency>
 ```
 
-包括版本在内的具体细节将在上线时确定。请关注模组社区资源以获取最新信息。
+最新版本可在以下位置查看：
+
+- Release：[https://maven.hytale.com/release/com/hypixel/hytale/Server/maven-metadata.xml](https://maven.hytale.com/release/com/hypixel/hytale/Server/maven-metadata.xml)
+- Pre-Release：[https://maven.hytale.com/pre-release/com/hypixel/hytale/Server/maven-metadata.xml](https://maven.hytale.com/pre-release/com/hypixel/hytale/Server/maven-metadata.xml)
 
 ---
 
@@ -462,7 +486,7 @@ HytaleServer jar 将发布至 Maven Central，供模组项目作为依赖使用�
 | 要求 | 说明 |
 | :--- | :--- |
 | **服务器运营者规范** | 服务器必须遵守运营者规范与社区标准 |
-| **自我评级** | 运营者必须准确为服务器内容评级，评级将用于内容过滤与家长控制 |
+| **自我评级** | 运营者必须准确为服务器内容评级。评级将驱动内容过滤与家长控制 |
 | **执行** | 违反自我评级的服务器将依据服务器运营者政策受到处罚 |
 
 **玩家数量验证:**
@@ -519,20 +543,18 @@ SRV 记录允许玩家使用域名（例如 `play.example.com`）而无需指定
 | **玩家档案** | 获取玩家资料，包括外观、头像渲染与公开资料信息 |
 | **服务器遥测** | 上报服务器状态、玩家数量与发现目录所需的元数据 |
 | **举报** | 举报玩家违反 ToS |
-| **付款** | 使用内置支付网关处理支付 |
+| **支付** | 使用内置支付网关处理支付 |
 
-**正在考虑中:**
+**正在考虑:**
 
 | 端点 | 说明 |
 | :--- | :--- |
-| **全局制裁** | 查询玩家是否存在平台级制裁（非服务器专属封禁） |
-| **好友列表** | 在具备适当权限的情况下获取玩家好友列表，用于社交功能 |
-| **Webhook 订阅** | 订阅事件推送通知，如玩家改名或制裁状态更新 |
+| 全局制裁 | 查询玩家是否存在平台级制裁（非服务器专属封禁） |
+| 好友列表 | 在具备适当权限的情况下获取玩家好友列表，用于社交功能 |
+| Webhook 订阅 | 订阅事件推送通知，例如玩家名称变更或制裁状态更新 |
 
 **设计目标:**
 
 - **宽松的速率限制:** 提供批量端点与利于缓存的响应，以支持大型网络
 - **经身份验证的访问:** 所有端点均需服务器身份验证，以防止滥用
 - **版本化 API:** 提供稳定契约，并为破坏性变更设置弃用窗口
-
-还有更多问题？[提交请求](https://support.hytale.com/hc/en-us/requests/new)
