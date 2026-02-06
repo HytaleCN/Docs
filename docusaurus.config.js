@@ -101,12 +101,6 @@ const config = {
             label: '游戏功能',
           },
           {
-            type: 'doc',
-            docId: 'npc',
-            position: 'left',
-            label: 'NPC',
-          },
-          {
             href: 'https://hytalecn.com',
             position: 'left',
             label: '主站',
